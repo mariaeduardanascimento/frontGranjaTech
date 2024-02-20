@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+}
+
+.header h1{
+    margin: 5px 0 0 40px;
+    color: blue;
+    font-size: 1.5em;
+
+}
+
+.wrapper > div:nth-child(2){
+    grid-column: 2 / 7;
+    grid-row: 1;
+    padding: 2px;
+    background-color: #fadada;    
+    border-radius: 10px;
+
+ }
+
+body .wrapper .line-one p{
+    font-size: 1em;
+}
+

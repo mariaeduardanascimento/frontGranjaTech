@@ -1,0 +1,98 @@
+body, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.header{
+  margin: 20px;
+}
+
+.header > a{
+  font-size: 1em;
+  color: #281bb3;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.wrapper {
+  display: grid;
+  max-width: auto;
+  grid-template-columns: 230px 160px 160px 160px 160px minmax(150px,auto);
+  grid-column-gap: 10px;
+  grid-template-rows: 130px 70px 110px 110px 110px 200px;
+  grid-row-gap: 10px;
+  margin: 0 20px 20px 20px;
+}
+
+.wrapper > div {
+  padding: 1rem;
+}
+
+.wrapper .menu li, .wrapper .menu li a{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #2b2b30;
+}
+
+.wrapper .menu li a:hover{
+  cursor: pointer;
+  color: #281bb3;
+}
+
+.wrapper .menu li{
+  margin: 2px 2px 2px 5px;
+  
+}
+
+.wrapper .menu li img{
+  width: 15px;
+  margin-right: 5px;
+
+}
+
+
+
+.wrapper .menu ol .sub-menu{
+  background-color: #dddfd9;
+  margin-top: 8px;
+  padding: 2px;
+}
+
+.wrapper .menu ol ul{
+  padding-inline-start: 30px;
+  display: none;
+}
+
+.wrapper .menu .itensGalpao01.mostra,
+.wrapper .menu .itensGalpao02.mostra,
+.wrapper .menu .itensGraficos.mostra,
+.wrapper .menu .itensTemperaturas.mostra,
+.wrapper .menu .itensVacinas.mostra{
+  display: block;
+}
+
+.wrapper .menu ol li span{
+  position: absolute;
+  font-size: 20px;
+  left: 200px;
+}
