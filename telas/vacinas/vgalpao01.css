@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+}
+
+.header h1{
+    margin: 5px 0 0 40px;
+    color: blue;
+    font-size: 1.5em;
+
+}
+
+.wrapper {
+    display: grid;
+    max-width: auto;
+    grid-template-columns: 230px 160px 160px 160px 160px minmax(150px,auto);
+    grid-column-gap: 10px;
+    grid-template-rows: 30px 30px 30px 70px 150px 100px 100px 100px 100px;
+    grid-row-gap: 10px;
+    margin: 0 20px 20px 20px;
+  }
