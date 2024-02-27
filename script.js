@@ -26,3 +26,5 @@ $('.vacinas').click(function(){
     $('.wrapper .menu .itensVacinas').toggleClass('mostra');
 
 });
+
+

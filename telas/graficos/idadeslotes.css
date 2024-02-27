@@ -14,7 +14,7 @@
     max-width: auto;
     grid-template-columns: 230px 160px 160px 160px 160px minmax(150px,auto);
     grid-column-gap: 10px;
-    grid-template-rows: repeat(3, 300px);
+    grid-template-rows: 300px 30px 300px 30px 300px 30px;
     grid-row-gap: 10px;
     margin: 0 20px 20px 20px;
   }
@@ -26,27 +26,31 @@
     border-radius: 10px;
     border: 1px solid #9492ac;
 }
-.wrapper .grid-2 .infos{
+.wrapper .grid-2 .infos,
+.wrapper .grid-4 .infos,
+.wrapper .grid-4 .infos{
     margin: 0;
 }
-.wrapper .grid-2 .infos h2{
+.wrapper .grid-2 .infos h2,
+.wrapper .grid-4 .infos h2,
+.wrapper .grid-6 .infos h2{
     margin: 5px 0;
     color: blue;
 
 }
 
-.wrapper .grid-2 .infos p{
+.wrapper .grid-2 .infos p,
+.wrapper .grid-4 .infos p,
+.wrapper .grid-6 .infos p{
     margin: 5px;
     font-size: 15px;
     font-weight: bold;
+    color: #9492ac;
 }
 
 .wrapper > div:nth-child(3){
     grid-column: 2 / 7;
     grid-row: 2;
-    padding: 8px;
-    border-radius: 10px;
-    border: 1px solid #9492ac;
 }
 
 .wrapper > div:nth-child(4){
@@ -55,4 +59,48 @@
     padding: 8px;
     border-radius: 10px;
     border: 1px solid #9492ac;
+}
+
+.wrapper > div:nth-child(5){
+    grid-column: 2 / 7;
+    grid-row: 4;
+}
+
+.wrapper > div:nth-child(6){
+    grid-column: 2 / 7;
+    grid-row: 5;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #9492ac;
+}
+
+.wrapper > div:nth-child(7){
+    grid-column: 2 / 7;
+    grid-row: 6;
+}
+
+.wrapper .grid-3,.wrapper .grid-5,.wrapper .grid-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .grid-3 .legenda-azul,
+.wrapper .grid-3 .legenda-verde,
+.wrapper .grid-5 .legenda-azul,
+.wrapper .grid-5 .legenda-verde,
+.wrapper .grid-7 .legenda-azul,
+.wrapper .grid-7 .legenda-verde{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0059ff;
+    margin: 10px;
+
+}
+
+.wrapper .grid-3 .legenda-verde,
+.wrapper .grid-5 .legenda-verde,
+.wrapper .grid-7 .legenda-verde{
+    background-color: #30c49f;
 }

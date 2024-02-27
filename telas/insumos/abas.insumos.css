@@ -1,0 +1,26 @@
+
+body .wrapper .abas-insumos{
+    display: flex;
+    width: 1000px;   
+}
+
+body .wrapper .abas-insumos a{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.5s;
+    padding: 5px;
+    border-radius: 5px;
+    color: #686666;
+}
+
+body .wrapper .abas-insumos a:hover{
+    background-color: #7051e0;
+    color: #fff;
+
+}
+
+
+

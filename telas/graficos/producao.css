@@ -35,6 +35,7 @@
 .wrapper .grid-5 .infos h2{
     margin: 5px 0;
     color: blue;
+    font-size: 20px;
 
 }
 
@@ -44,7 +45,7 @@
 .wrapper .grid-5 .grafico{
     margin-top: 15px;
     width: 98%;
-    height: 80%;
+    height: 70%;
     border: 1px solid #9492ac;
 
 }
@@ -71,4 +72,30 @@
     padding: 8px;
     border-radius: 10px;
     border: 1px solid #9492ac;
+}
+
+.wrapper .grid-2 .tabela,.wrapper .tabela,.wrapper .tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .grid-2 .tabela .legenda-azul,
+.wrapper .grid-2 .tabela .legenda-verde,
+.wrapper .tabela .legenda-azul,
+.wrapper .tabela .legenda-verde,
+.wrapper .tabela .legenda-azul,
+.wrapper .tabela .legenda-verde{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0059ff;
+    margin: 10px;
+
+}
+
+.wrapper .grid-2 .tabela .legenda-verde,
+.wrapper .tabela .legenda-verde,
+.wrapper .tabela .legenda-verde{
+    background-color: #30c49f;
 }

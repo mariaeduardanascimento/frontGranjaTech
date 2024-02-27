@@ -1,9 +1,11 @@
-body .wrapper .abas-dadosg{
+body .wrapper .abas-dadosg,
+body .wrapper .abas-lote1{
     display: flex;
     width: 500px;   
 }
 
-body .wrapper .abas-dadosg a{
+body .wrapper .abas-dadosg a,
+body .wrapper .abas-lote1 a{
     font-size: 18px;
     margin-left: 10px;
     transition: 0.5s;
@@ -14,7 +16,8 @@ body .wrapper .abas-dadosg a{
     color: #686666;
 }
 
-body .wrapper .abas-dadosg a:hover{
+body .wrapper .abas-dadosg a:hover,
+body .wrapper .abas-lote1 a:hover{
     background-color: #7051e0;
     color: #fff;
 

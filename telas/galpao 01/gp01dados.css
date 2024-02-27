@@ -100,7 +100,6 @@
 
 .wrapper > .grid-3 > h3,
 .wrapper > .grid-4 > h3{
-    /* margin-top margin-right margin-button margin-left  */
    color: #67648a;
     font-size: 15px;
     margin: 5px 0 5px 20px;
@@ -190,6 +189,7 @@ font-family: arial;
 .wrapper > .grid-7 > .eggs-production{
     display: flex;
     padding: 0;
+    justify-content: space-evenly;
 }
 
 .wrapper > .grid-7 > .eggs-production > .total,
@@ -199,7 +199,6 @@ font-family: arial;
 .wrapper > .grid-7 > .eggs-production > .sujos,
 .wrapper > .grid-7 > .eggs-production > .sem-casca{
     display: flex;
-    margin-left: 20px;
 }
 
 .wrapper > .grid-7 > .eggs-production > .total > img,
@@ -209,7 +208,7 @@ font-family: arial;
 .wrapper > .grid-7 > .eggs-production > .sujos > img,
 .wrapper > .grid-7 > .eggs-production > .sem-casca > img{
     float: left;
-    height: 20px;
+    height: 30px;
     margin: 15px;
 }
 
@@ -221,7 +220,7 @@ font-family: arial;
 .wrapper > .grid-7 > .eggs-production > .sem-casca > p{
     display: flex;
     flex-direction: column;
-    font-size: 15px;
+    font-size: 18px;
     color: #67648a;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -236,7 +235,7 @@ font-family: arial;
 .wrapper > .grid-7 > .eggs-production > .sem-casca > p > span{
     padding-top: 4px;
     color: #67648a;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: normal;
 }
 
