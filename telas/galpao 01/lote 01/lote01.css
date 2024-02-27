@@ -1,4 +1,4 @@
-.header {
+/* .header {
     display: flex;
 }
 
@@ -7,7 +7,7 @@
     color: blue;
     font-size: 1.5em;
 
-}
+} */
 
 .wrapper {
     display: grid;

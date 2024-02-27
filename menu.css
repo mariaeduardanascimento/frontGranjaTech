@@ -19,10 +19,50 @@ body{
 
 
 .header{
+  display: flex;
   margin: 20px;
+  justify-content: space-between;
 }
 
-.header > a{
+.header .header-left{
+  display: flex;
+}
+
+.header  .user{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  margin: 0 50px;
+}
+
+.header .user .icon-user{
+  margin-right: 10px;
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.header .user .user-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+.header .user p{
+  text-align: right;
+  font-size: 18px;
+  margin: 0;
+}
+
+.header .user span{
+  font-size: 10px;
+  margin: 0;
+}
+
+.header .header-left > a{
   font-size: 1em;
   color: #281bb3;
   text-transform: uppercase;
@@ -31,6 +71,15 @@ body{
   border: 1px solid black;
   padding: 10px;
   margin-left: 20px;
+}
+
+
+
+.header h1{
+  margin: 5px 0 0 20px;
+  color: blue;
+  font-size: 1.5em;
+
 }
 
 .wrapper {
