@@ -2,19 +2,12 @@ body, ol {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
 
 a{
   text-decoration: none;
 }
-
-
-body{
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 
 
 
@@ -66,7 +59,6 @@ body{
   font-size: 1em;
   color: #281bb3;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   border: 1px solid black;
   padding: 10px;
@@ -87,13 +79,108 @@ body{
   max-width: auto;
   grid-template-columns: 230px 160px 160px 160px 160px minmax(150px,auto);
   grid-column-gap: 10px;
-  /* grid-template-rows: 130px 70px 110px 110px 110px 200px; */
+  grid-template-rows: 130px 70px 110px 110px 110px 200px;
   grid-template-rows: repeat(70px, 6);
   grid-row-gap: 10px;
   margin: 0 20px 20px 20px;
 }
 
+.wrapper .side-bar{
+  height: 100vh;
+  position: 0;
+  left: 0;
+  transition: 0.6 ease;
+  transition-property: left;
+}
 
+.side-bar .menu{
+  width: 100%;
+}
+
+
+.side-bar .menu .item{
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.side-bar .menu .item .bg-grey{
+  background-color: #dddfd9;
+
+}
+
+.side-bar .menu .item a{
+  color: #2b2b30;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 10px;
+  line-height: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.side-bar .menu .item .sub-menu > a{
+  color: #4d4d4d;
+  padding: 0;
+  margin-left: 30px;
+  line-height: 1.5;
+}
+
+.side-bar .menu .item .sub-menu > a .fa-circle{
+  margin-right: 5px;
+}
+
+.side-bar .menu .item a:hover{
+  color: #281bb3;
+
+}
+
+.side-bar .menu .item a:active{
+  color: #281bb3;
+}
+
+
+
+.side-bar .menu img{
+  width: 15px;
+  margin-right: 10px;
+
+}
+
+.side-bar .menu .item a .dropdown{
+  position: absolute;
+  right: 0;
+  margin: 5px 15px;
+  transition: 0.3s ease;
+
+}
+
+.side-bar .menu .item .sub-menu{
+  display: none;
+}
+
+
+
+.side-bar .menu .item .sub-menu-visible{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.rotate{
+  transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+/* 
 .wrapper .menu li, .wrapper .menu li a{
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
@@ -142,4 +229,4 @@ body{
   position: absolute;
   font-size: 20px;
   left: 200px;
-}
+} */
