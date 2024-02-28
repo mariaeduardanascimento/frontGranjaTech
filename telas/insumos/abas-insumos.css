@@ -64,7 +64,7 @@ body .wrapper .grid-3 p:nth-child(2) > span{
 }
 
 .wrapper > div:nth-child(5){
-    grid-column: 2 / 7;
+    grid-column: 2 / 8;
     grid-row:  4 /8;
     padding: 8px;
     margin-top: 20px;
@@ -86,4 +86,27 @@ body .wrapper .grid-3 p:nth-child(2) > span{
     border-radius: 2px;
     margin-top: 10px;
     margin-left: 90%;
+}
+
+
+@media screen and (max-width:1280px){
+
+    .wrapper > div:nth-child(5){
+        grid-column: 2 / 6;
+        grid-row:  4 /8;
+        padding: 8px;
+        margin-top: 20px;
+    
+    } 
+
+    .wrapper input{
+        justify-content: end;
+        width: 100px;
+        height: 30px;
+        border-radius: 2px;
+        margin-top: 10px;
+        margin-left: 80%;
+    }
+    
+
 }

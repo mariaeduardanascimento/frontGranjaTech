@@ -10,6 +10,9 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>   
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/menu.css">
     <link rel="stylesheet" href="pesomaves.css">
     <link rel="stylesheet" href="/telas/galpao 01/abas.css">
@@ -36,65 +39,72 @@
     </header>
 
     <div class="wrapper">
-        <div>
-            <div class="menu">
-                <nav>
-                    <ol>
-                        <li><img src="/src/icon-home.png"><a href="/index.html">Home</a></li>
+        <nav>
+            <div class="side-bar">
+                <div class="menu">
+                    <div class="item">
+                        <a href="/index.html"><img src="/src/icon-home.png">Home</a>
+                    </div>
+                    <div class="item">
+                        <div class="bg-grey">
+                        <a class="sub-btn"><img src="/src/icon_galinha.png" alt="">Galpão 01<i
+                                class="fa-solid fa-angle-right dropdown"></i></a>
+                                </div>
                         <div class="sub-menu">
+                            <a href="/telas/galpao 01/dadosdogalpao.html" class="sub-item"><i class="fa-regular fa-circle fa-2xs"></i>Dados do Galpão</a>
+                            <a href="/telas/galpao 01/lote 01/lote01.html" class="sub-item"><i class="fa-regular fa-circle fa-2xs"></i>Lote 01</a>
+                            <a href="#" class="sub-item"><i class="fa-regular fa-circle fa-2xs"></i>Lote 02</a>
 
-                        <li><img src="/src/icon_galinha.png" alt=""><a href="#" class="galpao01">Galpão 01<span class="material-symbols-outlined">
-                            chevron_right
-                            </span></a>
                         </div>
-                            <ul class="itensGalpao01">
-                                <li><a href="/telas/galpao 01/dadosdogalpao.html">Dados do galpão</a></li>
-                                <li><a href="/telas/galpao 01/lote 01/lote01.html">Lote 01</a></li>
-                                <li><a href="#">Lote 02</a></li>
-                            </ul>
-                        </li>
-                        <div class="sub-menu">
-                        <li class="galpao02"><img src="/src/icon_galinha.png" alt=""><a href="#" class="galpao02">Galpão 02<span class="material-symbols-outlined">
-                            chevron_right
-                            </span></a></li>
-                            </div>
-                        <div class="sub-menu">
-                        <li><img src="/src/icon-grafico-de-pizza.png" alt=""><a href="#" class="graficos">Gráficos<span class="material-symbols-outlined">
-                            chevron_right
-                            </span></a>
-                        </div>
-                            <ul class="itensGraficos" >
-                                <li><a href="/telas/graficos/idadelotes.html">Idade dos lotes</a></li>
-                                <li><a href="/telas/graficos/producao.html">Produção</a></li>
-                            </ul>
-                        </li>
-                        <li><img src="/src/icon-truck.png" alt=""><a href="/telas/insumos/insumos.html">Insumos</a></li>
-                        <li><img src="/src/Design sem nome (4).png" alt="" class="icon-balanca"><a href="">Peso das Aves (Geral)</a></li>
-                        <div class="sub-menu">
-                        <li><img src="/src/icon-temperatura.png" alt=""><a href="#" class="temperaturas">Temperatura<span class="material-symbols-outlined">
-                            chevron_right
-                            </span></a>
-                        </div>
-                            <ul class="itensTemperaturas">
-                                <li><a href="#">Galpão 01</a></li>
-                                <li><a href="#">Galpão 02</a></li>
-                            </ul>
-                        </li>
-                        <div class="sub-menu">
-                        <li><img src="/src/icon-temperatura.png" alt=""><a href="#" class="vacinas">Vacinas<span class="material-symbols-outlined">
-                            chevron_right
-                            </span></a>
-                        </div>
-                            <ul class="itensVacinas">
-                                <li><a href="/telas/vacinas/vgalpao01.html">Galpão 01</a></li>
-                                <li><a href="#">Galpão 02</a></li>
-                            </ul>
-                        </li>
-                    </ol>
 
-                </nav>
+                    </div>
+                    <div class="item">
+                        <div class="bg-grey">
+                        <a class="sub-btn"><img src="/src/icon_galinha.png">Galpão 02<i
+                                class="fa-solid fa-angle-right dropdown"></i></a>
+                                </div>
+                    </div>
+                    <div class="item">
+                        <div class="bg-grey">
+                        <a class="sub-btn"><img src="/src/icon-grafico-de-pizza.png">Graficos<i
+                                class="fa-solid fa-angle-right dropdown"></i></a>
+                                </div>
+                        <div class="sub-menu">
+                            <a href="/telas/graficos/idadelotes.html" class="sub-item"><i class="fa-regular fa-circle fa-2xs"></i>Idade dos lotes</a>
+                            <a href="/telas/graficos/producao.html" class="sub-item"><i class="fa-regular fa-circle fa-2xs"></i>Produção</a>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="/telas/insumos/insumos.html" class="sub-btn"><img src="/src/icon-truck.png">Insumos<i
+                                class="fa-solid fa-angle-right dropdown"></i></a>
+                    </div>
+                    <div class="item">
+                        <a  class="sub-btn"><img src="/src/Design sem nome (4).png">Peso das Aves</a>
+                    </div>
+                    <div class="item">
+                        <div class="bg-grey">
+                        <a class="sub-btn"><img src="/src/icon-temperatura.png">Temperatura<i
+                                class="fa-solid fa-angle-right dropdown"></i></a>
+                                </div>
+                        <div class="sub-menu">
+                            <a class="sub-item"><i class="fa-regular fa-circle fa-2xs"></i>Galpão 01</a>
+                            <a class="sub-item"><i class="fa-regular fa-circle fa-2xs"></i>Galpão 02</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="bg-grey">
+                        <a  class="sub-btn"><img src="/src/icon-temperatura.png" alt="">Vacinas<i
+                                class="fa-solid fa-angle-right dropdown"></i></a>
+                                </div>
+                        <div class="sub-menu">
+                            <a href="/telas/vacinas/vgalpao01.html" class="sub-item"><i class="fa-regular fa-circle fa-2xs"></i>Galpão 01</a>
+                            <a class="sub-item"><i class="fa-regular fa-circle fa-2xs"></i>Galpão 02</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav>
 
         <section class="abas-lote1">
             <a href="lote01.html">Número de aves</a>
